@@ -76,3 +76,30 @@ a {
     float: right;
     text-decoration: none;
 }
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input,
+    select,
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    li {
+        font-size: 15px;
+    }
+}
